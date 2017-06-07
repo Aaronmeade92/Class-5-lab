@@ -8,8 +8,8 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(num1, num2){
   var sum = num1 + num2;
-  var string = 'The sum of ' + num1 + ' and ' + num2 + ' is 11'
-  array = [sum, string]
+  var string = 'The sum of ' + num1 + ' and ' + num2 + ' is 11.'
+  var array = [sum, string]
   return array
 }
 // Here is the test for sum(); uncomment it to run it
@@ -24,10 +24,10 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-function Multiply(num1, num2){
+function multiply(num1, num2){
   var product = num1 * num2;
 
-  var string = 'The product of ' + num1 + ' and ' + num2 + ' is 28';
+  var string = 'The product of ' + num1 + ' and ' + num2 + ' is ' + product + '.';
   var array = [product, string];
   return array;
 
@@ -45,11 +45,13 @@ Fourth element: "The product of 4 and 7 and 5 is 140."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-function SumAndMultiply(num1, num2, num3){
+function sumAndMultiply(num1, num2, num3){
   var sum = num1 + num2 + num3;
   var product = num1 * num2 * num3;
-  var string = 'The product of ' + num1 + ' and ' + num2 + ' and ' + num3 + ' is 140'
-  var array = [sum, product, string];
+  var sumString = num1 + ' and ' + num2 + ' and ' + num3 + ' sum to 16.';
+  console.log(sumString);
+  var string = 'The product of ' + num1 + ' and ' + num2 + ' and ' + num3 + ' is 140.';
+  var array = [sum, product, sumString, string];
   return array;
 }
 // Here is the test for sumAndMultiply(); uncomment it to run it
@@ -64,6 +66,10 @@ Write a function called sumArray() that takes in an array of numbers as its argu
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
+function sumArray(num1, num2, num3){
+  var array = [num1, num2, num3]
+  
+}
 testArray = [2,3,4];
 
 // Here is the test for sumArray(); uncomment it to run it
